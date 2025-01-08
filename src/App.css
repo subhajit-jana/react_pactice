@@ -1,0 +1,71 @@
+.container_for_from{
+position: absolute;
+left: 50%;
+top: 30%;
+transform: translateX(-50%);
+}
+.ptagfor{
+ font-size: 1.3rem;
+
+ text-align: center;
+
+
+}
+.ptagfor_parents span{
+  background-color: red;
+  padding:10px;
+  border-radius: 12px;
+  
+
+    color: white !important;
+}
+.ptagfor_parents{
+background-color: rgb(151, 221, 151);
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 12px;
+margin-block: 2rem;
+position: relative;
+padding-inline: 1rem;
+font-weight: bolder;
+}
+.doneitems{
+text-decoration: line-through;
+  
+
+}
+.doneitemsdfsdsd{
+    text-decoration: none;
+      background-color: yellow;
+    
+}
+form input{
+    height: 50px;
+    width: 300px;
+    outline: none;
+    border-radius: 12px;
+    font-size: 2rem;
+    border: none;
+      background-color: rgba(128, 128, 128, 0.523);
+      padding-left: 1rem;
+    
+    
+
+}
+form {position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+form button{
+    border-radius: 12px;
+    height: 56px;
+      background-color: green;
+      border: none;
+      color: white;
+      padding-inline: 1rem;
+      font-size: 1.4rem;
+    
+}
